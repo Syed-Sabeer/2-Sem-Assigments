@@ -1,0 +1,23 @@
+In PowerShell window #1:
+
+Navigate to your folder
+
+javac Server.java ClientHandler.java Client.java
+
+java Server
+
+You should see:
+Server started. Waiting for clients...
+
+
+
+Open a new PowerShell window.
+Navigate to the same directory:
+
+java Client
+
+If all goes well, you should see:
+Server: Welcome to the server. Type 'exit' to quit.
+You:
+
+we can create a lot of clients as we need
